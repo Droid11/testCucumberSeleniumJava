@@ -22,7 +22,7 @@ public class Hook extends BaseUtil {
     public void InitializeTest(Scenario scenario){
 
         System.out.println("Opening the browser : Firefox");
-        System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\LibrariesTestAutomation\\Drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "<write path to where your geckodriver is here>");
         base.Driver = new FirefoxDriver();
 
     }
