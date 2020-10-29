@@ -12,23 +12,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Hook extends BaseUtil {
 
 
-    private BaseUtil base;
-    public Hook(BaseUtil base) {
+    private final BaseUtil base;
+
+    public Hook(final BaseUtil base) {
 
         this.base = base;
     }
 
     @Before
-    public void InitializeTest(Scenario scenario){
+    public void InitializeTest(final Scenario scenario) {
 
         System.out.println("Opening the browser : Firefox");
-        System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\LibrariesTestAutomation\\Drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","geckodriver");
         base.Driver = new FirefoxDriver();
 
     }
 
     @After
-    public void TearDownTest(Scenario scenario){
+    public void TearDownTest(final Scenario scenario) {
 
        if(scenario.isFailed()) {
            //Take screenshot

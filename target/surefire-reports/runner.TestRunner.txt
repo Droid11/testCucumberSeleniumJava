@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.974 s <<< FAILURE! - in runner.TestRunner
+feature(runner.TestRunner)  Time elapsed: 27.408 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Roberts-MacBook-Pro.local', ip: 'fe80:0:0:0:187e:f0ec:140b:baa4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '12.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+Caused by: org.openqa.selenium.WebDriverException: 
+invalid argument: can't kill an exited process
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Roberts-MacBook-Pro.local', ip: 'fe80:0:0:0:187e:f0ec:140b:baa4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '12.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+

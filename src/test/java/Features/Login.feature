@@ -8,7 +8,6 @@ Feature: LoginFeature
     And I enter the following for Login
       | username | password |
       | testuser | userpass |
-    And I just need to see how step look for Cucumber-Java8
     And I click login button
     Then I should see the user form page
 
@@ -32,9 +31,9 @@ Feature: LoginFeature
       | qa       | testing    |
 
   Scenario: Make a test fail - Missing URL
-    Given I navigate to log in page and it do not respond
-    And I enter the following for Login
-      | username | password  |
-      | admin    | adminpass |
-    And I click login button
-    Then I should see the user form page
+     Given I navigate to log in page and it do not respond
+     And I enter the following for Login
+         | username | password  |
+         | admin    | adminpass |
+     And I click login button
+     Then I should see the user form page

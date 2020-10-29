@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class LoginPage {
 
-    public LoginPage (WebDriver driver) {
+    public LoginPage (final WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -24,8 +24,7 @@ public class LoginPage {
     @FindBy(how = How.NAME, using = "Login")
     public WebElement btnLogin;
 
-
-    public void Login(String userName, String password){
+    public void Login(final String userName, final String password) {
 
         txtUserName.sendKeys(userName);
         txtPassword.sendKeys(password);
@@ -33,7 +32,6 @@ public class LoginPage {
 
     public void ClickLogin() throws InterruptedException {
 
-        Thread.sleep(2000);
         btnLogin.submit();
     }
 }

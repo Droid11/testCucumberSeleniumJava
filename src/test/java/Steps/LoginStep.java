@@ -28,6 +28,7 @@ public class LoginStep extends BaseUtil {
     public void iNavigateToTheLoginPage() throws Throwable {
 
         base.Driver.get("http://www.executeautomation.com//demosite//Login.html");
+
     }
 
     @And("^I click login button$")
@@ -35,7 +36,7 @@ public class LoginStep extends BaseUtil {
 
         LoginPage page = new LoginPage(base.Driver);
         base.Driver.findElement(By.name("Login")).submit();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         /* page.ClickLogin(); */
     }
 
@@ -44,6 +45,7 @@ public class LoginStep extends BaseUtil {
 
 
        base.Driver.close();
+
 
     }
     @And("^I enter the following for Login$")
