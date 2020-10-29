@@ -33,7 +33,7 @@
                         <goal>generate</goal>
                     </goals>
                     <configuration>
-                        <projectName>MOD P1</projectName>
+                        <projectName>Helsenorge test</projectName>
                         <outputDirectory>${project.build.directory}</outputDirectory>
                         <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         <jsonFiles>
@@ -119,11 +119,15 @@
             <version>6.8</version>
             <scope>test</scope>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>RELEASE</version>
+            <version>5.7.0</version>
+            <scope>test</scope>
         </dependency>
+
 
 
         <dependency>

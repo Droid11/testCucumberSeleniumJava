@@ -1,18 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.974 s <<< FAILURE! - in runner.TestRunner
-feature(runner.TestRunner)  Time elapsed: 27.408 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.435 s <<< FAILURE! - in runner.TestRunner
+feature(runner.TestRunner)  Time elapsed: 38.41 s  <<< FAILURE!
 cucumber.runtime.CucumberException: 
-org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor:  is not a valid URL.
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'Roberts-MacBook-Pro.local', ip: 'fe80:0:0:0:187e:f0ec:140b:baa4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '12.0.2'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
-Caused by: org.openqa.selenium.WebDriverException: 
-invalid argument: can't kill an exited process
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/8w/wmyqw23s17b4_633nl0qkzvc0000gn/T/rust_mozprofileB4CZNO, rotatable=false, moz:geckodriverVersion=0.27.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=81.0.2, moz:shutdownTimeout=60000, platformVersion=19.6.0, moz:processID=37429, browserName=firefox, moz:buildID=20201012085804, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: c66eee49-71e3-ba4c-8415-8be6848b5420
+Caused by: org.openqa.selenium.InvalidArgumentException: 
+Malformed URL: URL constructor:  is not a valid URL.
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'Roberts-MacBook-Pro.local', ip: 'fe80:0:0:0:187e:f0ec:140b:baa4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '12.0.2'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/8w/wmyqw23s17b4_633nl0qkzvc0000gn/T/rust_mozprofileB4CZNO, rotatable=false, moz:geckodriverVersion=0.27.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=81.0.2, moz:shutdownTimeout=60000, platformVersion=19.6.0, moz:processID=37429, browserName=firefox, moz:buildID=20201012085804, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: c66eee49-71e3-ba4c-8415-8be6848b5420
 
