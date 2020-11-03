@@ -1,8 +1,0 @@
-Transformation/SaleryCountTransform.class
-runner/TestRunner.class
-Base/BaseUtil.class
-Transformation/EmailTransform.class
-Steps/LoginStep.class
-Pages/LoginPage.class
-Steps/LoginStep$User.class
-Steps/Hook.class

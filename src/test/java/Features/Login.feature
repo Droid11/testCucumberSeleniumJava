@@ -29,11 +29,3 @@ Feature: LoginFeature
                   | username | password   |
                   | execute  | automation |
                   | qa       | testing    |
-
-  mvn      Scenario: Make a test fail - Missing URL
-            Given I navigate to log in page and it do not respond
-              And I enter the following for Login
-                  | username | password  |
-                  | admin    | adminpass |
-              And I click login button
-             Then I should see the user form page
