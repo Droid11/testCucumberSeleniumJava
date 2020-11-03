@@ -29,3 +29,4 @@ Feature: LoginFeature
                   | username | password   |
                   | execute  | automation |
                   | qa       | testing    |
+                  | robert   | mvnpass    |
