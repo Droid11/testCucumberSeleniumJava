@@ -29,4 +29,8 @@ Feature: LoginFeature
                   | username | password   |
                   | execute  | automation |
                   | qa       | testing    |
+<<<<<<< HEAD
                   | robert   | mvnpass    |
+=======
+	          | robert   | password   |
+>>>>>>> 9085a423d8fca1257607a503ed3e9d315cab6d89
